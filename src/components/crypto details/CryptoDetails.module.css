@@ -122,4 +122,22 @@
         font-size: 18px;
     }
 }
+@media (max-width: 600px) {
+    .statsContainer {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .statsChildContainer{
+        width: 100%;
+    }
+
+    .bottomContainer{
+        flex-direction: column;
+    }
+
+    .descContainer, .linkContainer{
+        width: 100%;
+    }
+}
 
