@@ -137,4 +137,11 @@
         flex-direction: column;
     }
 }
+@media (max-width: 768px) {
+    
+    .newsMainContainer{
+        padding: 0;
+    }
+
+}
 
