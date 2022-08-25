@@ -13,18 +13,18 @@
 }
 @media (max-width: 1575px) {
     .container{
-        padding: 80 120px;
+        padding: 80px 120px;
     }
 }
 
 @media (max-width: 1388px) {
     .container{
-        padding: 80 30px;
+        padding: 80px 30px;
     }
 }
 @media (max-width: 1211px) {
     .container{
-        padding: 80 30px;
+        padding: 80px 30px;
         justify-content: center;
     }
 }

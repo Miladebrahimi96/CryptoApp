@@ -9,7 +9,7 @@ const NewsItem = ({data}) => {
 
     return (
         <div className={style.container}>
-            <a href={url} rel="noreffer" >
+            <a href={url} rel="noreferrer" target="_blank">
                 <div className={style.titleContainer}>
                     <h3>{name}</h3>
                     <img src={image?.thumbnail.contentUrl} alt="news" />
