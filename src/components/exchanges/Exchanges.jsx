@@ -36,13 +36,13 @@ const Exchanges = () => {
                             </span>
                             <span>{coin?.name}</span>
                         </div>
-                        <span className={style.volume}>
+                        <span className={style.volume} title="24 Hours Volume">
                             { `$ ${millify(parseInt(coin?.['24hVolume']))}` }
                         </span>
-                        <span className={style.market}>
+                        <span className={style.market} title="Market Cap">
                             {millify(coin?.marketCap)}
                         </span>
-                        <span className={coin?.change > 0 ? style.green : style.red}>
+                        <span className={coin?.change > 0 ? style.green : style.red} title="Price Change">
                             % {coin?.change}
                         </span>
                     </div>
