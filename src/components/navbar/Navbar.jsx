@@ -17,9 +17,6 @@ const Div = styled.div `
 }
 `
 
-
-
-
 const Navbar = () => {
 
     const {menu} = useContext(ClickContex);
